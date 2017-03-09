@@ -1,0 +1,33 @@
+{
+  "name": "multer-hash",
+  "version": "1.0.0",
+  "description": "upload file save as hash with image size that wraps around multer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multer",
+    "hash",
+    "uploader",
+    "express",
+    "image"
+  ],
+  "author": "ljwrer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljwrer/multer-hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljwrer/multer-hash/issues"
+  },
+  "homepage": "https://github.com/ljwrer/multer-hash",
+  "dependencies": {
+    "image-size": "^0.5.1",
+    "lodash": "latest",
+    "middleware-series": "^1.0.0",
+    "multer": "^1.3.0",
+    "mv": "^2.1.1"
+  }
+}
